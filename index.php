@@ -1,5 +1,5 @@
  <?php
 
 
-include_once("k.html");
+include_once("register.html");
  ?>
