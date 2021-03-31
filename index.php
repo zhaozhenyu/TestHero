@@ -1,4 +1,4 @@
- <?pho
+ <?php
 
 
 include_once("history.html ");
