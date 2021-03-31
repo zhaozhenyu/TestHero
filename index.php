@@ -1,5 +1,5 @@
  <?pho
 
 
-include_once("new.html");
+include_once("history.html");
  ?>
