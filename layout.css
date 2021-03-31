@@ -1,0 +1,117 @@
+.head_area {
+  background-color: rgba(4, 4, 243, 0.829);
+  width: 100%;
+  height: 100px;
+}
+
+
+.header {
+padding: 15px 1px;  
+background-color: transparent;
+color: white;
+text-align: center;
+display: inline-block;  
+width: 80%;
+height: 100%;
+}
+
+
+.left_subhead {
+padding: 5px 10px;
+background-color: transparent;
+float: left;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+text-align: left;
+width: 10%;
+height: 100%;
+}
+
+
+.bar1 {
+padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 20px;
+background-color: gray;
+text-align: right;
+font-family: 'Times New Roman', Times, serif;
+width: 100%;
+height: 30px;
+border-style: solid;
+border-width: 1px;
+border-color: black;
+}
+
+
+.column {
+float: left;
+background-color:#a1cced;
+width: 20%;
+/* height: 570px; Should be removed. Only for demonstration */
+ border-style:solid;
+border-width:5px;
+border-color:white;
+}
+
+.button {
+position: relative;
+background-color: #FFFFFF;
+border: none;
+font-size: 20px;
+color: black;
+width: 250px;
+height: 50px;
+border-radius: 8px;
+border: 2px solid #2b5799;
+text-align: center;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+text-decoration: none;
+overflow: hidden;
+cursor: pointer;
+margin: 8px;
+margin-top: 27px;
+margin-bottom: 27px;
+}
+/*Added description and attributes of button*/
+
+.button:hover {
+background-color: #63b7f8;
+color: white;
+}
+/*Added the change of hovering the mouse over the button*/
+
+.button:after {
+content: "";
+background: #a1cced;
+display: block;
+position: absolute;
+padding-top: 300%;
+padding-left: 350%;
+margin-left: -20px!important;
+margin-top: -120%;
+opacity: 0;
+transition: all 0.8s
+}
+
+.button:active:after {
+padding: 0;
+margin: 0;
+opacity: 1;
+transition: 0s
+}
+/*Added button animation*/
+
+.link-top {
+width: 100%;
+height: 1px;
+border-top: solid #FFFFFF 1px;
+}
+
+
+* {
+box-sizing: border-box;
+}
+body {
+margin: 0;
+}
